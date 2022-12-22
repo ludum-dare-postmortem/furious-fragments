@@ -1,0 +1,48 @@
+# This .gitignore file should be placed at the root of your Unity project directory
+#
+# Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
+#
+furious-fragments/[Ll]ibrary/
+furious-fragments/[Tt]emp/
+furious-fragments/[Oo]bj/
+furious-fragments/[Bb]uild/
+furious-fragments/[Bb]uilds/
+furious-fragments/[Ll]ogs/
+furious-fragments/[Uu]ser[Ss]ettings/
+
+# MemoryCaptures can get excessive in size.
+# They also could contain extremely sensitive data
+furious-fragments/[Mm]emoryCaptures/
+
+# Recordings can get excessive in size
+furious-fragments/[Rr]ecordings/
+
+# Uncomment this line if you wish to ignore the asset store tools plugin
+# /[Aa]ssets/AssetStoreTools*
+
+*.unityproj
+*.tmp
+
+# Unity3D generated meta files
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Unity3D generated file on crash reports
+furious-fragments/sysinfo.txt
+
+# Builds
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Crashlytics generated file
+crashlytics-build.properties
+
+# Packed Addressables
+Furious Fragments/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# Temporary auto-generated Android Assets
+furious-fragments/[Aa]ssets/[Ss]treamingAssets/aa.meta
+furious-fragments/[Aa]ssets/[Ss]treamingAssets/aa/*
